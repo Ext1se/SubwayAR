@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0428e807d0c4eb44f80a4bf8193243f9, type: 3}
+  m_Name: Unka Jump
+  m_EditorClassIdentifier: 
+  Index: 3
+  Active: 1
+  ID: {fileID: 11400000, guid: 9ae07cd2f8f4c054687fecf634f8e5b3, type: 2}
+  Input: Jump
+  General:
+    modify: 2303
+    RootMotion: 1
+    Sprint: 0
+    Gravity: 0
+    Grounded: 0
+    OrientToGround: 0
+    CustomRotation: 0
+    FreeMovement: 0
+    AdditivePosition: 0
+    Persistent: 0
+    IgnoreLowerStates: 0
+    LockMovement: 0
+    LockInput: 0
+    Colliders: 1
+  ExitFrame: 1
+  SleepFromState: []
+  SleepFromMode: []
+  QueueFrom: []
+  TagModifiers: []
+  debug: 0
+  JumpPressed: 0
+  JumpPressedLerp: 0
+  AirRotation:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  AirControl:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  jumpProfiles: []
